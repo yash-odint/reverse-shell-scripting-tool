@@ -28,7 +28,7 @@ def bind_socket():
         s.listen(5)
     
     except socket.error as msg:
-        print("Socket bindind error " + msg)
+        print("Socket binding error " + msg)
         bind_socket()
 
 def socket_accept():
